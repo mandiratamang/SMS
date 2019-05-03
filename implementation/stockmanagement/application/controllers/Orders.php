@@ -30,7 +30,7 @@ class Orders extends Admin_Controller
 
 			$count_total_item = $this->model_orders->countOrderItem($value['id']);
 			$date = date('d-m-Y', $value['date_time']);
-			$date_time = $date . ' ' . $time;
+			$date_time = $date;
 			$buttons = '';
 
 			if(in_array('viewOrder', $this->permission)) {

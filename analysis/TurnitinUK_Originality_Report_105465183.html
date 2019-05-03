@@ -1,0 +1,388 @@
+
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Turnitin, LLC" />
+    <meta name="keywords" content="" /> 
+    <meta name="description" content="" />
+    <meta name="viewport" content="width = initial-scale" />
+    <meta name="viewport" content="height = initial-scale" />
+    
+<title>TurnitinUK Originality Report</title>
+
+<base href="http://www.turnitinuk.com">
+<style type="text/css">
+	
+body	{
+	color: #000;
+	background: #ddd;
+	padding: 0;
+	border: 0;
+	font: 14px Arial, Verdana, sans-serif;
+	margin: 0;
+	text-align: center;
+	}
+	
+form	{
+	padding: 0;
+	margin: 0;
+	}
+	
+p	{
+	padding: .8em 1.5em;
+	margin: 0;
+	text-align: left;
+	}
+	
+img	{
+	border: 0;
+	padding: 0;
+	}
+
+div	{
+	padding: 0;
+	border: 0;
+	text-align: left;
+	}
+	
+strong	{
+	font-weight: bold;
+	}
+	
+h2	{
+	font-size: 15px;
+	margin: 20px 0 10px 20px;
+	}
+	
+a:link, a:visited	{
+	text-decoration: underline;
+	color: #00f;
+	}
+	
+a:hover, a:active	{
+	text-decoration: underline;
+	color: #888;
+	}
+	
+img#logo	{
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+	}
+	
+div#container	{
+	border: 1px solid #aaa;
+	width: 770px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 10px 0;
+	}
+	
+div#top	{
+	background: #fff;
+	width: 7in;
+	margin: auto;
+	padding-bottom: 15px;
+	}
+	
+div#content	{
+	background: #fff;
+	}
+	
+#top p	{
+	padding: .3em 0 .3em 20px;
+	}
+
+#top span	{
+	padding-right: 35px;
+	}
+	
+#top p#orig	{
+	padding-top: 15px;
+	}
+	
+#orig span#score.red	{
+	border-right: 18px solid red;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.orange	{
+	border-right: 18px solid orange;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.yellow	{
+	border-right: 18px solid yellow;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.green	{
+	border-right: 18px solid green;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.blue	{
+	border-right: 18px solid blue;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+div.divider	{
+	width: 7in;
+	border: 1px dotted #888;
+	margin: auto;
+	padding: 4px 0 4px 10px;
+	font-weight: bold;
+	background: #ddd;
+	font-size: 15px;
+	}
+	
+div.links	{
+	width: 7in;
+	margin: auto;
+	}
+	
+.links div	{
+	padding: 15px 20px 15px 20px;
+	border-bottom: 1px dotted #888;
+	}
+	
+.links div#last	{
+	padding: 15px 20px 20px 20px;
+	border-bottom: 0;
+	}
+	
+div.number	{
+	float: right;
+	background: white;
+	border: 1px solid #888;
+	margin: 0 0 0 20px;
+	padding: .1em .5em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	}
+	
+div.number-l	{
+	float: left;
+	background: white;
+	border: 1px solid #888;
+	margin: 6px 16px 10px 0;
+	padding: .1em .5em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	}
+	
+.links div p	{
+	padding: .2em 1.5em .4em 0;
+	}
+	
+.links div p#mess	{
+	padding: .2em 1.5em 0 0;
+	}
+	
+div#body	{
+	line-height: 1.5em;
+	width: 7in;
+	margin: auto;
+	padding-bottom: 20px;
+	}
+	
+#body p	{
+	color: #555;
+	padding-top: 30px;
+	line-height: 20px;
+	}
+
+	
+#body a	{
+	display: block;
+	color: red;
+	margin: 1em 3em;
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 1em 1em;
+	border: 1px dotted #888;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 26px;
+	background: #FFFFE5;
+	}
+
+#body span	{
+	color: #555;
+	font-weight: normal;
+	font-size: 14px;
+	}
+
+#body span.number	{
+	display: block;
+	float: right;
+	color: #000;
+	font-weight: normal;
+	border: 1px solid #888;
+	padding: 0 6px;
+	font-weight: bold;
+	margin-left: 15px;
+	font-size: .9em;
+	background: #fff;
+	}
+	
+#actions	{
+	display: none;
+	}
+
+</style>
+
+
+
+</head>
+
+<body id="or_print_report">
+
+
+<div id="container">
+
+<div id="top">
+    <div id="content">
+        <!-- ######### Top Body  ##########################--> 
+        <div id="top_body">
+            <p id="title">
+            <img src="/r/build/images/814a4152b3aca062da5c4bcdcd07c82ecb_tiiuklogo.gif" id="logo" width="60">
+            TurnitinUK Originality Report
+            </p>
+                <div class="general_info">
+                    <p>
+                        <span>Computing Project</span>
+                        
+                        by Mandira Tamang
+                        
+                    </p>
+                    <p>
+                        From Computing Project (L5DC CPROJ)
+                    </p>
+                    <ul>
+                        <li>Processed on 27-Apr-2019  7:16 PM BST</li>
+                        <li>ID: 105465183</li>
+                        <li>Word Count: 4968</li>
+                    </ul>
+                </div>
+                <div class="similarity_box">
+                    <div class="overall_similarity">
+                        <div class="color_box green">&nbsp;</div>
+                        <div class="similarity_title">Similarity Index</div>
+                        <div class="similarity_percent">3%</div>
+                    </div>
+                    <div class="similarity_by_source">
+                        <div class="similarity_title">Similarity by Source</div>
+                        <dl>
+                            <dt>Internet&nbsp;Sources:</dt>
+                            <dd>1%</dd>
+                            <div class="clear"></div>
+                            <dt>Publications:</dt>
+                            <dd>1%</dd>
+                            <div class="clear"></div>
+                            <dt>Student&nbsp;Papers:</dt>
+                            <dd>3%</dd>
+                            <div class="clear"></div>
+                        </dl>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                                 
+        </div>
+        <!-- ######### END Top Body  ##########################--> 
+    </div>
+</div>
+
+<div class="divider">sources:</div>
+
+<div class="links">
+
+	<div>
+	<div class="number-l">1</div>
+	<p>1% match (student papers from 27-Apr-2019)</p>
+
+	<a style="color:red" href="/paperInfo.asp?r=69.832340753009&svr=331&lang=en_us&oid=oid:2:599428516&perc=1">Submitted to Softwarica College of IT & E-Commerce on 2019-04-27</a>
+
+	</div>
+	<div>
+	<div class="number-l">2</div>
+	<p>< 1% match (student papers from 27-Apr-2019)</p>
+
+	<a style="color:green" href="/paperInfo.asp?r=69.832340753009&svr=331&lang=en_us&oid=oid:2:599393537&perc=0">Submitted to Softwarica College of IT & E-Commerce on 2019-04-27</a>
+
+	</div>
+	<div>
+	<div class="number-l">3</div>
+	<p>< 1% match (student papers from 10-Jan-2018)</p>
+
+	<a style="color:blue" href="/paperInfo.asp?r=69.832340753009&svr=331&lang=en_us&oid=oid:2:81340578&perc=0">Submitted to University of Bradford on 2018-01-10</a>
+
+	</div>
+	<div>
+	<div class="number-l">4</div>
+	<p>< 1% match (student papers from 05-Jan-2017)</p>
+
+	<a style="color:brown" href="/paperInfo.asp?r=69.832340753009&svr=331&lang=en_us&oid=oid:2:65148086&perc=0">Submitted to NCC Education on 2017-01-05</a>
+
+	</div>
+	<div>
+	<div class="number-l">5</div>
+	<p>< 1% match (student papers from 03-Nov-2017)</p>
+
+	<a style="color:#ff6600" href="/paperInfo.asp?r=69.832340753009&svr=331&lang=en_us&oid=oid:1:873748979&perc=0">Submitted to Higher Education Commission Pakistan on 2017-11-03</a>
+
+	</div>
+	<div id="last">
+	<div class="number-l">6</div>
+	<p>< 1% match (student papers from 18-Apr-2014)</p>
+
+	<a style="color:#630000" href="/paperInfo.asp?r=69.832340753009&svr=331&lang=en_us&oid=oid:2:32476145&perc=0">Submitted to Softwarica College of IT & E-Commerce on 2014-04-18</a>
+
+	</div>
+
+</div>
+
+
+
+<div class="divider">paper text:</div>
+<div id="body">
+Chapter 1 Introduction Background of the system The stock management plays the vital role to run the business activities and helps to meet the goal of the business. It provides the better platform to make the business success. So, the stock management is one of the most required software for the business as well for the shops. This software helps to exchange the product and keep the record safe. It helps to manage the stock within the small period of time. Justification Stock management helps to improve the quality of the product as well as save the time and cost. This software helps to edit the stocks and create the bill of the product as well. It manages the product in the easiest way and helps to understand how it works as well as run in the smooth way. Aims The main aim of this project is to develop the stock management system which helps to keep the record of the stocks safe and manage the stocks properly as well as to run it smoothly. It keeps the details of the product and manages it within the short period of time. So, it provides safety of stock keeps record and manage it properly as well as saves the time and cost which going to help to maintain the better quality of the product. Objectives To meet the desired aims, following are the objectives of the project ‣ First objective is to collect the requirement of the project. ‣ To perform the installation that is required during designing the software. ‣ To design the database that makes it easier to build the software. ‣ To perform the planning so that project complete in the correct time period. ‣ To perform the testing so that the confirmation of the software. ‣ To perform the release that gives the feedback and demand of the project. ‣ Overview of project design The stock management system is developed by using the CodeIgniter framework of php programming language. The system is controlled by the admin where there admin can login and then can add, update and delete the users, groups, brands, category, products and orders. The admin can add, update and delete the brand and category and manage the product according to the availability of the brand and category of product. The admin also can make the bill in this system. After receiving the order of the product from the customer, the admin can produce the bill of that product. They can also manage the paid and unpaid bill and print it out as well. Chapter 2 Analysis Introduction to Analysis The word analysis comes from the Ancient Greek from ana-“up” and lysis-“loosening”. So, it helps to make the complex topic to smaller parts to get the best understanding of it. It helps to solve the problem as well as helps to make the decision to meet the requirements of the project. Need for Analysis As for the software development, the analysis is required to make the right decision at the right time. The analysis in the software development is to collect the requirements and understand it as well as to formulate it. Object Oriented Analysis It is one of the best technical approaches to analyze the system. It mainly focuses on the real world object that is important for the system. It helps to find the problem and requirements rather than a solution for the system development. Pitfalls of my project ? As every project has its good and bad side. Here are the some pitfalls of my project: ? It is difficult to change or add to the first stage after entering another phase while developing the system. ? If changes need to be done then it is going to be costly and time consuming. Merits of my project ? The problems and error are identified before the stage is started while developing the system. ? There is clear about the requirement for the system as the requirement is investigated early. ? The system is likely to be very structural and it is easy to measure the progress. ? The system is done under the stages where without completion of one stage there is no step on another stage. So, the stages are completed smoothly and clearly. ? The system is easy to understand and easy to use. Requirement Functional requirements Non-functional Requirement prioritization NLA It stands for the Natural Language Analysis. It is the artificial intelligence which mainly focuses on the interaction between the computer and human language. It helps to analyze the human language into the computer program form. List Reasons for selection Classes Reasons Sign in To enter inside the system with the help of email and password. Brand To add, update and delete the brand of the stock. Category To add, update and delete the category of the stock. Product To add, update and delete the product of the stock. Customer To add, update and delete the customer. Bill To generate and print the bill of the product. Initial class diagram Figure 1: initial class diagram Use case diagram It is the simple diagram which includes system, actor, use case and relationships. It represents the interaction of the user with the system and shows the relationships between the actor and the use cases. It helps to decrease the confusion as it gives clear information about the actor and their relationships with the use cases of the system. Justification Use case diagram is very helpful to develop and design the system as it provides the clarity. Following are the reasons to choose the use case diagram for the system: ‣ Mainly it provides way to communicate complex ideas in a fairly basic way. ‣ It helps to easily understand the system as have proven an excellent bridge between software developers and end users. ‣ It helps to provide the function requirement of the system. ‣ It provides the easiness to understand the how system works and who are involve in the system. ‣ It helps to decrease the problems that can occur in the future. Figure 2: use case diagram of stock management system ? ? ? Here, in this use case diagram there are two actor admin and user. Firstly the admin can login in the system with valid email and password. The inside works is handle by the admin like insert, update and delete of product, brand, category, users and customer. ? ? The user can only manage the system that the admin allowed to. In this system the update should be done which is compulsory and the delete is in the hand of admin. ? If admin wants to delete then they can but don’t want to delete then also it is fine. Architecture For the development of the project I used the 3-tier system architecture. It is divided into the three layers which are given down below: 1. Presentation layer It is the first layer of the 3-tier architecture. It is handles by the client system that transfer the data to the application layer. 2. Application layer It is the second layer and also the middle layer of the 3-tier architecture that is handle by the application server. It helps to move and process the data between the presentation and database layer. 3. Database layer It is the third layer of the 3-tier architecture which is handling by the server system. In this layer the data is stored and retrieved from a database or file system. For example if the client wants to login the email then the client request to server and server request to the database. Likewise the database request from the server would send the data to server and server would forward it to the client. After this the email of the client would open. The 3-tier system architecture is given down below: Figure 3: three tier architecture Chapter 3 Design Dynamic Modeling Dynamic modeling represents the behavior of the system. It helps to show the object interaction at the runtime. So, I used the activity and sequence diagram for the dynamic modeling of stock management system which is given down below: Activity diagram It is one of the important diagrams <a href="javascript:openDSC(32476145, 2, '68');" onmouseover="doRollover(6);" onmouseout="undoRollover(6);" id="68" name="6" style="color:#630000" class="#630000"><span class="b-ref">6</span>in UML<span> that </span>describe<span> the </span>dynamic aspect of the system.<span> It is the </span>diagram<span> which </span>is<span> similar to </span>flow chart<span> that represents </span>the flow from one activity to another activity.<span> It is </span>the</a> behavioral UML diagram. Justification Activity diagrams are the user friendly diagrams which help to the flow of activity of the system. It shows the how the system behaves. So, following are the reasons to select the activity diagram: ‣ It provides the actual work flow behavior of the system. ‣ It describes the actual state of activities of a system by showing all the sequence of activities performed. ‣ It is use for analyzing an activity by describing what actions need to take place and when they should occur. ‣ It provides the easiness to understand the work flow of the system. ‣ It is mostly use diagram as it is user friendly. The activity diagram of stock management system is given down below: Figure 4: activity diagram of login ? The given activity diagram is of login system where the user can login. ? If it’s new user, then can register and login. ? If already exited then enter the email and password. ? In case of entering the right email and password, open the dashboard not then check the email and password. Figure 5: activity diagram of product ? Here, the admin can select the category, brand and enter the product. ? They can store the product by entering the product quantity and its price. Figure 6: activity diagram of selling the product ? To provide the product to the buyer, select the category and brand of product. ? Check whether the product is available or not. ? If it’s available, then calculate the amount of the product. ? After calculation generate the bill for that product and send it to the customer. Sequence diagram Sequence diagram is the diagram which shows behave of the system. It has different components like actor, lifeline, objects, focus of control, message, etc. with the help of these components the sequence diagram is made which helps to interact with the objects with the aim of exchanging the message at the time. Justification Sequence diagram is one the most required diagram for the project as it helps to shows behaves of the system. So here are the reasons for selection of the sequence <a href="javascript:openDSC(65148086, 2, '170');" onmouseover="doRollover(4);" onmouseout="undoRollover(4);" id="170" name="4" style="color:brown" class="brown"><span class="b-ref">4</span>diagram: ‣ It shows the<span> actual behavior </span>of the system. ‣ It shows the</a> message pass between the objects at a time. ‣ It shows the actual flow of the system. ‣ It provides the easier platform to understand the system. ‣ It is user friendly and easy to use as well. The sequence diagrams for the stock management are given down below: Figure 7: sequence diagram of login system of stock management system Here in this diagram the admin is the actor. Login page, validation, main page and login failure page are the objects.in this sequence diagram I have used actor, object, lifeline, message, focus of control, text and the frame. ? Firstly the admin go to the login page. ? After visiting the login page, the admin login the system by entering the email and password. ? To check the correct email and password it will verify in the validation page. ? If it’s correct then the main page will open not then the login failure page will open. Figure 8: sequence diagram after entering the main page of the system Here in this diagram also the admin is the actor. The login success, product management, brand management, category management, bill management and customer management are the objects of this sequence diagram. ? After entering the page the admin can manage all the details of the product, brand, category, bill and buyer. ? ? ? While in the product management object, the admin can add, edit and list the product. As well in the brand management object, the admin can add, edit and list the brand. Likewise in the category management, bill management and customer management, the admin can add, edit and list the category, bill and customer. Figure 9: sequence diagram of adding the product Here in this diagram the admin is the actor as well. The product management, category, brand, product, rate management and add are the objects of this sequence diagram. ? To add the products firstly visit in the product management object and select brand. ? Likewise select category, enter the name of product and manage the rate. ? Now add the product by clicking the add button. Structural Modeling It represents the structure of the system. It doesn’t show the behavior of system as it is only related to structure of system. I have included the class and context diagram which is structural modeling for this project and that is given down below: Class diagram It is the graphical representation which is made up of different classes and relationship between them in the object oriented system. In the class diagram, the attributes and operation forms the complete class. It is use while systems design and development. Justification Class diagram provides the simple and effective way to design the system. So, I have also chosen the class diagram to design the system. Following are the reason to choose the class diagram. ‣ It provides the information about how the system is structured or design. ‣ It contains the relevant structural relations and data type. ‣ It provides the overall sketch of the system. ‣ It is flexible as it gives the clear structure of system. ‣ It is also mostly used diagram to design the system. The class diagram of stock management system is given down below: Figure 10: final class diagram of stock management system Here, the classes that are involved in the class diagram are user, product, category, brand and customer. Here the admin login inside the system and manage the product. It manages the category and brand of the product. The customer can buy the product. The class diagram is made in the MVC pattern as shown in the figure above. In this class diagram, there is the attributes of classes and its operation are also given as well as the connection of classes. Context diagram It is the diagram which shows the high level view of a system. This diagram plays vital role while developing the system. Justification Following are reasons for selecting the context diagram to develop the system: ? The aim of this diagram is to mainly focus on the external factors while developing the system. ? It picturised by putting the system in the center and surrounded it by its interacting system, environment and activities. ? It shows how the information flows in the system. ? It is easy to draw as well as it can expand by adding. ? To draw it, there is no need of technical knowledge. ? ? ? ? Figure 11: context diagram Here, the stock management system is in the center and surrounded by admin, product, customer, brand and category. Firstly the admin enter email/password and system gives the confirmation. Admin can add/update/delete the brand, category and product as system provide report as well. The customer can order the product and admin makes the payment and lastly send the bill of the product to the customer. Database Modeling It shows the logical structure of database. It provides how the data can be organized, stored and manipulated. Some of the database modeling is given down below: Er-diagram It is the visual representation of the design which shows the relationships between the entities which is stored in the database. It provides simple way to understand the system and its work as it provides the details of the relationship of entity. Justification Following are the reasons to select the er-diagram for the system: ‣ Firstly it is highly flexible as it easily delivers the other relationships from the already existing ones. ‣ It is easy to understand as it acts as the blueprint for the database. ‣ It decreases the complication which can arise during the development. ‣ It provides the effective communication between the entities. ‣ It is very simple to understand. <a href="javascript:openDSC(65148086, 2, '174');" onmouseover="doRollover(4);" onmouseout="undoRollover(4);" id="174" name="4" style="color:brown" class="brown"><span class="b-ref">4</span>Er-diagram<span> of </span>stock management system Figure<span> 12: </span>Er diagram of<span> the </span>stock management system</a> Here, there are six entities which are customer, order, product, brand, category and brand_category. The product and customer forms the many to many relationships which is the order as show in the diagram. The brand and product also form the one to many relationships as the one brand can have the many products but one product is only of one brand. As well as the brand and category forms the many to many relationship which id the brand_category as one brand has many category and one category has many brands as shown in the diagram. Data dictionary It is the set of collection of description of data object. It makes easier to understand the database of the system. The data dictionary of this system is given down below: UI modeling Figure 13: login form of stock management system Figure 14: dashboard of the stock management system Figure 15: add the brand Figure 16: add the category Figure 17: category form of stock management system Figure 18: brand form of stock management system Figure 19: adding product form Figure 20: add the order Chapter 4 Implementation Programming language used PHP It stands for the Hypertext Preprocessor. It is the programming language which especially use for developing the dynamic web application. The php code embedded into the HTML code and also JavaScript as well as it can be used in combination with web framework. The database is stored in the MYSQL. So, I use php programming language to develop the web application (i.e. stock management system). Following are the reasons for using php programming language ? It is simple to use and easy to understand. ? It is also free and fast as well which helps to develop web application. ? The making of dynamic web application is possible with the help of HTML as well. CodeIgniter To develop this project I use the CodeIgniter framework. CI is one of the best php framework uses to develop web application with advanced features. It helps to develop the project faster in compare to other framework and it is also reliable. It is based on the model view controller (MVC) development pattern. Model Model classes contain functions that help to retrieve, insert and update information in database. View View is the web page or what the user sees <a href="javascript:openDSC(873748979, 1, '640');" onmouseover="doRollover(5);" onmouseout="undoRollover(5);" id="640" name="5" style="color:#ff6600" class="#ff6600"><span class="b-ref">5</span>but in CodeIgniter a view<span> also </span>can be a page fragment like a header or footer. Controller Controller serves between model<span> and </span>view and</a> generates a web page. Following are the reasons for the selection of CodeIgniter framework ? It is easy to migrate from one server to another server. ? It is easy to understand and also based on model view controller (MVC) pattern. ? It provides the facility of adding the custom codes which help to change the configuration. So, with the help of PHP programming language and CodeIgniter framework the stock management system is develop. As the project is not developing in the team, it is easy and fast to develop the project in the PHP CodeIgniter framework. Chapter 5 Testing Black box testing Black box testing is one the testing method for the software in which the functional part of the software is tested. It doesn’t test the internal part of the system. It helps to test only the behavior of the system that is why it is also known as the behavioral testing. Following are the reasons for selection of black box testing ? It is easy to test and simple to use. ? No need of technical knowledge as little knowledge is enough to perform the black box testing. ? It is simple to understand as well. The black box testing of stock management system is given down below: Test cases Test_id Test_001 Description Testing: empty value in the login form Test value Email= Password= Expected result Message box with email field is required Password field is required. Actual result The email field is required The password field is required. Yes or NO Yes Test_002 Testing: inserting the invalid <a href="javascript:openDSC(599393537, 2, '24');" onmouseover="doRollover(2);" onmouseout="undoRollover(2);" id="24" name="2" style="color:green" class="green"><span class="b-ref">2</span>password in login form. Email=<span> admin@gm ail </span>.com Password=<span> dh123f </span>Message box with</a> incorrect email/password Incorrect email/password Yes Test_003 Testing: inserting the invalid email and password email=gita@gmail .com Password=nvdfkf enej Message box with email does not exist. Email does not exits Yes Test_004 Testing: inserting the email but leaving the password box empty Email=admin@gm ail.com Password= Message box with password field is required Password field is required Yes Test_005 Testing: inserting the password but leaving the email box empty. Email= Password=123456 78 Message box with email field is required Email field is required Yes Test_006 Testing: inserting the correct email and password Email=admin@gm ail.com password=123456 78 Should open the dashboard Opening the dashboard Yes Test_007 Testing: changing the password with length is less than 8 characters Password=1234 56 Confirm password=1234 56 Message box with password field must be at least 8 characters in length The password field must be at least 8 characters in length Yes Test_008 Testing: changing the password which length is more than 8 characters Password=1234 567890 Confirm password=1234 567890 Message box with successfully updated. Successfully updated. Yes Test_009 Testing: changing the email Email=mandira @admin.com Message box with successfully updated. Successfully updated. Yes Test_001 0 Testing: changing the username Username=man dy Message box with successfully updated. Successfully updated. Yes Test_oo1 1 Testing: inserting the brand Brand=Gucci Status=active Message box with successfully added Successfully added Yes Test_001 2 Testing: updating the brand Brand=Gucci Status=inactive Message box with successfully updated Successfully updated. Yes Test_001 3 Testing: deleting the brand Brand=Gucci Status=inactive Message box with successfully removed Successfully removed. Yes Test log Test_id Output Test_00 1 <a href="javascript:openDSC(599428516, 2, '0');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="0" name="1" style="color:red" class="red"><span class="b-ref">1</span>Test_id Output Test_002 Test_id Output Test_003 Test_id Output Test_004<span> Test_id Output </span>Test_<span> 005 Test </span>_id Output Test_</a> 006 <a href="javascript:openDSC(599428516, 2, '13');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="13" name="1" style="color:red" class="red"><span class="b-ref">1</span>Test_id Output Test_<span> 007 </span>Test_id Output Test_</a> 008 <a href="javascript:openDSC(599428516, 2, '17');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="17" name="1" style="color:red" class="red"><span class="b-ref">1</span>Test_id Output Test_<span> 009 </span>Test_id Output Test_</a> 001 0 Test_id Output Test_001 1 Test_id Output Test_001 2 Test_id Output Test_001 3 Unit testing Unit testing is one of the best testing which is used to test the software. It helps to test the internal parts of the system or application. Not any one can use it to test because it needs the knowledge about the programming and coding. Following are reasons for the selection of unit testing ? Only the knowledgeable of coding and programming can perform the testing. ? It tests the internal parts of the system. ? Not any one can perform unit testing so it is important testing for the software development. Test case Figure 21: testing valid email and password Figure 22: testing passed of email and password <a href="javascript:openDSC(599393537, 2, '27');" onmouseover="doRollover(2);" onmouseout="undoRollover(2);" id="27" name="2" style="color:green" class="green"><span class="b-ref">2</span>Chapter 6 Other project issues Risk management Risk management is the process of</a> managing the risk or the problems that arise in the present and in the future. It helps to manage the risk that appears in the system and also helps to reduce it. It helps to find out the risk in the system and helps to give the solutions that can arise in the present as well as in the near future. The risk and its solution for this project are given down below in the table: Figure 23: risks management Configuration management Configuration management is the management which helps to keep the record safe and helps to get the correct and relevant document for everyone. If any problem occur and any changes need to done then with the help of configuration management we can add, edit and modify the files. It also helps to know that which items need to be configured. I used the github for the configuration management. The diagram of configuration management of this project is given down below: Figure 24: configuration management in github Figure 25: configuration management Scheduling/Gantt chart The scheduling helps to set the start date and the end date of the project. It helps to complete the project on time and helps to manage the project smoothly. The schedule of this project is show down below: Figure 26: schedule of the project Figure 27: Gantt chart of the project Future work ? If the admin wants to keep the staff and manage the stock then they can allow and also can select the feature that they want to allow to the staff in the future. ? This project is not only implemented in the business but also for the small shops as it manage the stock. ? The admin can absolutely manage the details of the stock as they can delete it or edit it. ? If the admin has the knowledge about the coding of the project then they can modify it as it is not the online website. ? The calendar can add in the future. ? The flow chart of the sell product can add in the future. User manual Login in ? Firstly login page appears where admin should enter the valid email and password. ? After entering the valid email and password, click the sign in button. Adding new product ? After entering the valid email and password, the dashboard appears where there is product in the side-menu bar as given the figure above. ? ? ? Add product and manage products appears after clicking the products. Click the add product and input the product data. To add it click the add button as shown in the above figure. Displaying all the products ? Enter the valid email and password. ? Click the product on the dashboard. ? To view the added product, click the manage products after clicking the product. ? Inside the manage products, there display all the products that are added which is given in the figure above. Searching and sorting result-product ? Enter the valid email and password in login form. ? Click the product on the dashboard. ? Click manage products on drop down menu and there display all the products. ? On the top right side, there is the search box and enter the search string. ? Appears the search result as show in the figure above. Deleting the product ? Enter the valid email and password. ? Click product on the dashboard. ? Click the manage products on dropdown menu. ? There display all the products and click on the delete symbol which is in the action field. ? Here appears the message box with ‘do you really want to delete?’ ? Click on the yes button to delete the product. Updating the product ? Enter the valid email and password. ? Click product on the dashboard. ? Click the manage products on dropdown menu. ? There display all the products and click on the edit symbol which is in the action field. ? Update the record of the product and click the update button which is given in the figure above. Adding the order ? Enter the valid email and password. ? Click orders on the dashboard. ? Click the add orders on dropdown menu. ? Enter the order. ? Click the add button to add it. Print the order ? Enter the valid email and password. ? Click orders on the dashboard. ? Click the manage orders on dropdown menu. ? There display all the orders and click on the edit symbol which is in the action field. ? Click the print button to print it. Bill of the product ? Enter the valid email and password. ? Click orders on the dashboard. ? Click the manage orders on dropdown menu. ? There display all the orders and click on the edit symbol which is in the action field. ? Click the print button to print it. ? After clicking the print here is the bill of the product which is shown in the figure above. Limitation Not all the projects are perfect as they carry some flaws. The stock management system is the web based project. It is made up of using different method, diagrams and time box. As it is made by using the waterfall model so changes in any stage is impossible. The stage should complete it completely without any problem because after entering another stage the change is like impossible. If want to change then firstly should complete all the stages and start from the top again. So, it’s going to be costly and time consuming. The admin only has right to run the system and outsider cannot run it. Outsider can run it but needs the permission of admin. Chapter 7 Conclusion Finally the project is completed for the stock management system. The project includes the introduction, analysis, design, implementation, testing and other project issues. In the introduction, there is the background of the system, aims, and objectives and over view of the project. It is describe in the details in the chapter-1. As well in the analysis, requirement of the project is defined. In this phase there is also the requirement prioritization which is made with the help of MoSoCoW prioritization. There are also the function and non-function requirements. NLA, Use case diagram, architecture and initial class diagram are also in it which is in the chapter-2. In the design also there are the diagrams which are the sequence diagram and activity diagram of dynamic modeling, class diagram and context diagram of the structural diagram and er-diagram and data dictionary of database modeling of this project. There is the clear description of these diagrams with justification for choosing it which is in the chapter-3. In this way in the implementation, there is the implementation of project in the programming language. So, I used the php programming language with the CodeIgniter framework. It is clearly described in the chapter-4. Likewise in the testing, there is the test of the project by using the different type of the testing. I used the black box and the unit box testing to test the system. The tests are in the chapter-5. Lastly in the other project issues, there is the schedule/Gantt chart of this project. Future work, risk management and configuration management are also included which is in the chapter-6.The references and appendix containing all the test results, code and user manual are in the chapter-8 and 9. Chapter 8 References and bibliography https <a href="javascript:openDSC(81340578, 2, '306');" onmouseover="doRollover(3);" onmouseout="undoRollover(3);" id="306" name="3" style="color:blue" class="blue"><span class="b-ref">3</span>://www.tutorialspoint.com https://www.<span> laravel-vuejs </span>.com<span> https </span>://www.<span> lucidchart </span>.com https://www.<span> quora </span>.com</a> http://benefitof.net <a href="javascript:openDSC(81340578, 2, '301');" onmouseover="doRollover(3);" onmouseout="undoRollover(3);" id="301" name="3" style="color:blue" class="blue"><span class="b-ref">3</span>http://www.tutorialspoint.com https://www.<span> carajaclasses </span>.com http://www.<span> lynda </span>.com/<span> Business-Project.. </span>https://</a> en.wikipedia.org 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 
+</div>
+</div>
+</body>
+</html>
